@@ -1,0 +1,223 @@
+.dad {
+  height: 80px;
+  background-color: red;
+  width: 150px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.dad:hover button {
+  border-radius: 20px;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  transition: opacity 0s;
+  pointer-events: none;
+  color: yellow;
+}
+.dad div {
+  color: rgb(58, 5, 149);
+  font-weight: 700;
+  position: absolute;
+  background-color: ;
+  top: 0;
+  right: 45px;
+}
+
+.button-item {
+  background-color: aquamarine;
+  height: 40px;
+  color: white;
+}
+.button-item:hover {
+  border-radius: 20px;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.header {
+  height: 60px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid rgb(231, 231, 227);
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 200;
+  padding-left: 20px;
+}
+.left-section {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+}
+.hamburger-icon,
+.yt-icon {
+  height: 30px;
+}
+
+.hamburger-container,
+.yt-icon-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-section {
+  display: flex;
+  flex: 1;
+  height: 60px;
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.search-bar {
+  height: 40px;
+  flex: 1;
+  border: 2px solid green;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  max-width: 850px;
+  width: 0;
+  padding-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.search-bar::placeholder {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.search-icon-div {
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  height: 50px;
+}
+
+.toolkit {
+  background-color: blue;
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400px;
+  font-size: small;
+}
+.search-icon-div:hover .toolkit,
+.yt-icon-container:hover .toolkit,
+.hamburger-container:hover .toolkit {
+  opacity: 1;
+  background-color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  font-weight: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice-icon {
+  height: 50px;
+}
+.voice-icon-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice-icon-div:hover .toolkit {
+  opacity: 1;
+  background-color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.right2 {
+  width: 200px;
+  height: 50px;
+  background-color: #d1dfed14;
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0px;
+}
+
+.chanel-right2-profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.right2toolkit {
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400px;
+  font-size: medium;
+}
+
+.chanel-right2-profile-pic:hover .right2toolkit {
+  opacity: 1;
+  background-color: gray;
+}
+.profile-pic {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40px;
+  border: 2px solid red;
+  height: 40px;
+  border-radius: 50px;
+}
+.notification-number {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  color: red;
+}
+.notification-icon {
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}

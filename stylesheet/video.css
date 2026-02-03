@@ -1,0 +1,83 @@
+.video-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+@media (max-width: 500px) {
+  .video-container-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 501px) and (min-width: 900px) {
+  .video-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 999px) {
+  .video-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.thumbnail {
+  width: 320px;
+  height: 220px;
+}
+
+.video-container {
+  width: 320px;
+  height: 350px;
+  border: none;
+}
+.video-preview {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  height: 90px;
+  gap: 10px;
+}
+.chanel-profile-picture img {
+  height: 70px;
+  width: 100%;
+  border-radius: 50px;
+}
+.chanel-profile-picture {
+  height: 70px;
+  width: 70px;
+}
+.video-details {
+  display: flex;
+}
+
+.thumbnail-container {
+  position: relative;
+}
+.video-time {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  background-color: rgb(240, 235, 233);
+  border-radius: 2px;
+}
+
+.thumbnail-container:hover {
+  .thumbnail {
+    width: 330px;
+    height: 220px;
+  }
+}
+
+.video-preview:hover {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  height: 90px;
+  color: rgb(155, 24, 24);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  line-height: 20px;
+  transition: 0.15s;
+}
