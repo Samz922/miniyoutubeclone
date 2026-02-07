@@ -39,6 +39,22 @@
   pointer-events: none;
 }
 
+@media (max-width: 430px) {
+  .search-bar,
+  .search-icon,
+  .voice-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    width: 430px;
+    position: fixed;
+    right: 10px;
+  }
+}
+
 .header {
   height: 60px;
   margin-top: 5px;
