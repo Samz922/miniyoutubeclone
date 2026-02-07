@@ -20,7 +20,7 @@
   color: rgb(58, 5, 149);
   font-weight: 700;
   position: absolute;
-  background-color: ;
+  background-color:;
   top: 0;
   right: 45px;
 }
@@ -43,7 +43,7 @@
   height: 60px;
   margin-top: 5px;
   display: flex;
-  justify-content: ;
+  justify-content:;
   align-items: center;
   gap: 10px;
   border: 2px solid rgb(231, 231, 227);
